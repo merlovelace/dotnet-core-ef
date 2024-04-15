@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variables", "variables\vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{C607C129-3451-4235-BD17-8309EDF68C43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes2", "Classes2\Classes2.csproj", "{7EA0D0E1-586A-4F7F-BF5C-23ACBEDBA182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C607C129-3451-4235-BD17-8309EDF68C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C607C129-3451-4235-BD17-8309EDF68C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C607C129-3451-4235-BD17-8309EDF68C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA0D0E1-586A-4F7F-BF5C-23ACBEDBA182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA0D0E1-586A-4F7F-BF5C-23ACBEDBA182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA0D0E1-586A-4F7F-BF5C-23ACBEDBA182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA0D0E1-586A-4F7F-BF5C-23ACBEDBA182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
