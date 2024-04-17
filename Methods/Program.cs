@@ -1,10 +1,9 @@
-﻿
-using Math = Methods.Math;
+﻿using Math = Methods.Math;
 
-Math math = new Math();
-int increase = math.Increase(4,5);
+var math = new Math();
+var increase = math.Increase(4, 5);
 Console.WriteLine(increase);
 
 
-int increased2 = math.Increase(4,5,6,7,9);
+var increased2 = math.Increase(4, 5, 6, 7, 9);
 Console.WriteLine(increased2);

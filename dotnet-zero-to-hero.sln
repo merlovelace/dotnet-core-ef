@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{E1F6D876-81F3-4912-B8B9-BD70F4E62A75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{2F473874-E6E7-43C9-9892-ACA393F3CD5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{E1F6D876-81F3-4912-B8B9-BD70F4E62A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F6D876-81F3-4912-B8B9-BD70F4E62A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F6D876-81F3-4912-B8B9-BD70F4E62A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F473874-E6E7-43C9-9892-ACA393F3CD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F473874-E6E7-43C9-9892-ACA393F3CD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F473874-E6E7-43C9-9892-ACA393F3CD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F473874-E6E7-43C9-9892-ACA393F3CD5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

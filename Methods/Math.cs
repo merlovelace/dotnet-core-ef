@@ -9,15 +9,11 @@ public class Math
 
     public int Increase(params int[] numbers) //params diyerek aslında array vereceğim diyorsun
     {
-        int increased = 0;
-        foreach (var number in numbers)
-        {
-            increased = increased + number;
-        }
+        var increased = 0;
+        foreach (var number in numbers) increased = increased + number;
 
         return increased;
 
         //return numbers.Sum();
     }
-    
 }
