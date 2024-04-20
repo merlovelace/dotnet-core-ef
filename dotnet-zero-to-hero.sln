@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{2F473874-E6E7-43C9-9892-ACA393F3CD5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{742CF7E6-9E35-4673-BF30-FC084666AAAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{2F473874-E6E7-43C9-9892-ACA393F3CD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F473874-E6E7-43C9-9892-ACA393F3CD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F473874-E6E7-43C9-9892-ACA393F3CD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742CF7E6-9E35-4673-BF30-FC084666AAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742CF7E6-9E35-4673-BF30-FC084666AAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742CF7E6-9E35-4673-BF30-FC084666AAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742CF7E6-9E35-4673-BF30-FC084666AAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

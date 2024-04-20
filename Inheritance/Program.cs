@@ -4,11 +4,11 @@
  *
  */
 
-class PersonManager
+internal class PersonManager
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    
+
     public void Add()
     {
         Console.WriteLine("Ekleme yapıldı'");
@@ -22,12 +22,13 @@ class PersonManager
 
 //Eğer ben Person class'ının metotlarının Person ın bir kolu olan çalışanda yapabilsin istiyorsam 
 
-class EmployeeManager : PersonManager //İşte burada artık Employee de Add ve Delete yapabilmekte ben bir daha gidip aynılarını bu class 'a yazmama gerek yok
+internal class
+    EmployeeManager : PersonManager //İşte burada artık Employee de Add ve Delete yapabilmekte ben bir daha gidip aynılarını bu class 'a yazmama gerek yok
 {
     public int EmployeeId { get; set; }
 }
 
-class CustomerManager : PersonManager
+internal class CustomerManager : PersonManager
 {
     public void GetBestCustomer()
     {
@@ -46,4 +47,3 @@ class CustomerManager : PersonManager
 // EmployeeManager employeeManager = new EmployeeManager();
 // employeeManager.Name = "Merve";
 // employeeManager.EmployeeId = 4;
-
