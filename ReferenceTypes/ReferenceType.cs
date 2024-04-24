@@ -31,7 +31,7 @@ public class Customer : Person
     public int CreditCard { get; set; }
 }
 
-class PersonManager
+internal class PersonManager
 {
     public void Add(Person person)
     {

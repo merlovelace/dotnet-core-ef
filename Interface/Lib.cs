@@ -2,7 +2,7 @@ namespace Interface;
 
 //Normal class'lar için biz inherited olayını yapabiliyoruz Manager class'lar için de örn
 
-class PersonManager
+internal class PersonManager
 {
     public void Add()
     {
@@ -20,14 +20,13 @@ class PersonManager
 // olduğundan bir daha public demeye gerek yok, burada farkı içini doldurmuyorum yani şu demek oluyor 
 // Customer için Add ayrı çalışır , Employee için Add ayrı çalışır 
 
-
 //implements- interface
-interface IPersonManager
+internal interface IPersonManager
 {
     void Add(); // imza denir, şablon olarak kullanılır 
 }
 
-class CustomerManager : IPersonManager
+internal class CustomerManager : IPersonManager
 {
     public void Add()
     {
@@ -36,7 +35,7 @@ class CustomerManager : IPersonManager
     }
 }
 
-class EmployeeManager : IPersonManager
+internal class EmployeeManager : IPersonManager
 {
     public void Add()
     {
